@@ -1,3 +1,4 @@
+{% extends 'blog/base.html' %}
 {% load staticfiles %}
 <html>
     <head>
@@ -11,7 +12,6 @@
 <div>
     <h1><a href="/">Django Girls Blog</a></h1>
 </div>
-{% extends 'blog/base.html' %}
 
 {% block content %}
     {% for post in posts %}
